@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property(nonatomic,strong) NSString *globalStringVar;
+
+-(void)globalMethodFromViewControllerClass;
 
 @end
 

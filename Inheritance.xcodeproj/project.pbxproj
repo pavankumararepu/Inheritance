@@ -13,6 +13,7 @@
 		0B3D6DEE1CBC9588007DF128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3D6DEC1CBC9588007DF128 /* Main.storyboard */; };
 		0B3D6DF01CBC9588007DF128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B3D6DEF1CBC9588007DF128 /* Assets.xcassets */; };
 		0B3D6DF31CBC9588007DF128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3D6DF11CBC9588007DF128 /* LaunchScreen.storyboard */; };
+		0B3D6DFC1CBC96AB007DF128 /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B3D6DFB1CBC96AB007DF128 /* SubViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		0B3D6DEF1CBC9588007DF128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B3D6DF21CBC9588007DF128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0B3D6DF41CBC9588007DF128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3D6DFA1CBC96AB007DF128 /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		0B3D6DFB1CBC96AB007DF128 /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				0B3D6DE71CBC9588007DF128 /* AppDelegate.m */,
 				0B3D6DE91CBC9588007DF128 /* ViewController.h */,
 				0B3D6DEA1CBC9588007DF128 /* ViewController.m */,
+				0B3D6DFA1CBC96AB007DF128 /* SubViewController.h */,
+				0B3D6DFB1CBC96AB007DF128 /* SubViewController.m */,
 				0B3D6DEC1CBC9588007DF128 /* Main.storyboard */,
 				0B3D6DEF1CBC9588007DF128 /* Assets.xcassets */,
 				0B3D6DF11CBC9588007DF128 /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				0B3D6DEB1CBC9588007DF128 /* ViewController.m in Sources */,
 				0B3D6DE81CBC9588007DF128 /* AppDelegate.m in Sources */,
 				0B3D6DE51CBC9588007DF128 /* main.m in Sources */,
+				0B3D6DFC1CBC96AB007DF128 /* SubViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
